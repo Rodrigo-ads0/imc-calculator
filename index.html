@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora-IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="title">
+            <h1>Calculadora de IMC</h1>
+            <p>Calcule se seu peso é ideal</p>
+        </section>
+        <section class="infos">
+            <h2><strong>Nome</strong></h2>
+            <input id="name" type="text" placeholder="Ex: Rodrigo Alves" autocomplete="off">
+            <h2><strong>Altura</strong> (M)</h2>
+            <input id="height" type="number" placeholder="Ex: 180" class="teste">
+            <h2><strong>Peso</strong> (KG)</h2>
+            <input id="Weight" type="number" placeholder="Ex: 60">
+            <button onclick="calculate()">Calcular</button>
+            <textarea name="result" id="result" cols="30" rows="5"></textarea>
+        </section> 
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
